@@ -77,7 +77,7 @@ def kfold(network, cat_imgs, dog_imgs):
 
 if __name__ == '__main__':
     # Import Data
-    cat_imgs = getImgs('D:\\Downloads\kagglecatsanddogs_3367a\PetImages')
+    cat_imgs = getImgs('/home/techn/Pictures/PetImages/Cat')
     dog_imgs = getImgs('/home/techn/Pictures/PetImages/Dog')
     np.save('cat_photos.npy', cat_imgs)
     np.save('dog_photos.npy', dog_imgs)
